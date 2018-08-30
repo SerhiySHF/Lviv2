@@ -42,7 +42,7 @@ header div.banner {
     background-position: center;
     background-size: cover; 
     display: flex;
-    align-items: top;
+    align-items: flex-start;
     justify-content: left;
 }    
 h1 {
