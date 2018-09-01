@@ -24,6 +24,23 @@ header nav ul li a{
 header nav ul li a:hover {
     text-decoration: underline;
 }
+li a:hover {
+    background-color: #808080;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+}
 @media (min-width: 400px){
     header h1, nav{
         display: flex;
@@ -87,4 +104,19 @@ footer {
     font-size: 15px;
     font-weight: bold;
     background-color: #008B8B; 
+}
+@media (max-width: 400px){
+    .banner {
+       text-align: center;
+    }  
+}
+@media (max-width: 400px){
+    img.young{
+        float: unset;
+        text-align: center;
+    }
+    img.fish {
+        float: unset;
+        align-items: center;
+    }
 }
