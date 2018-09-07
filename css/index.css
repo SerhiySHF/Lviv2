@@ -90,7 +90,7 @@ img.young {
 }    
 img.fish {
     float: right;
-    margin: 0px 10px 2px 4px;
+    margin: 10px 10px 10px 10px;
 }
 img.fish {
     width: 205px;
@@ -120,3 +120,25 @@ footer {
         align-items: center;
     }
 }
+section p::first-letter { 
+    font-size: 150%;
+    color: blue;
+    font-weight: bold;
+}
+p {text-indent: 20px; 
+    display: block; 
+    padding: 1px; 
+    margin-bottom: 1px; 
+    margin-top: 1px;}
+@media (max-width: 400px){
+    img.young {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}    
+@media (max-width: 400px){
+    img.fish {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }    
