@@ -19,21 +19,5 @@ let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 document.getElementById("quote").innerHTML = randomQuote;
 
-const myButton = document.querySelector('button');
-const myHeading = document.querySelector('h2');
 
-function setUserName() {
-    let myName = prompt('Please enter your name.');
-    localStorage.setItem('name', myName);
-    myHeading.textContent = 'Welcome to the site, ' + myName + '. Here you can find information about Ernest Hemingway!';
-}
-if (!localStorage.getItem('name')) {
-    setUserName();
-}
-else {
-    let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Welcome to the site, ' + storedName + '. Here you can find information about Ernest Hemingway!';
-}
-myButton.onclick = function() {
-    setUserName();
-}
+
