@@ -18,6 +18,3 @@ let quotes = [
 let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 document.getElementById("quote").innerHTML = randomQuote;
-
-
-
